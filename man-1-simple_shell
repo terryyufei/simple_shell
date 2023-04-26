@@ -1,0 +1,39 @@
+.\" Man page for simple shell.
+.\" Contact benkivuvak5@gmail.com to correct errors or typos.
+.TH man 8 26/04/2023" "Simple Shell man page"
+.SH NAME
+.B simple_shell
+- Man For Simple Shell Project for ALX SE School.
+.SH SYNOPSIS
+.B ./hsh
+.SH DESCRIPTION
+Simple shell is a final sprint 1 project which is basicly an interface between the user and the kernel,
+it is a linux command lines interpreter as simple as this
+.SH OPTIONS
+Options are specific to and interpreted by the program that the command calls. By convention, options are separate arguments that follow the name of the comman
+.SH COMMAND
+cp: copy a file to another place.
+rm: Delete files
+sh, bash: Interpreters of commands.
+ls: Shows the contents of a folder.
+mkdir: Create a folder.
+rmdir: Delete a folder
+sleep: "Sleep" system during the seconds you indicate.
+touch: create a file.
+cat: Shows the contents of a file.
+echo: shows the content of what you indicate.
+kernelversion: shows the kernel version
+chgrp: Change a file group.
+kill: "Kill" a process.
+pwd: Shows the path of the folder where we are.
+chmod: Change the permissions of a file.
+ln: Create a link between files or folders.
+mv: Move a file.
+chown: Change the user of a file.
+.SH SEE ALSO
+useradd(8), passwd(5), nuseradd.debian(8)
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Benson Kaunda benkivuvak5@gmail.com
+Terry Wambui shikuwambui@gmail.com
